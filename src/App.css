@@ -94,3 +94,18 @@ nav ul li a:hover{
   width: 400px;
   border-radius: 5px;
 }
+.footer-container{
+  background: gold;
+}
+.social-icons ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.icons{
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}

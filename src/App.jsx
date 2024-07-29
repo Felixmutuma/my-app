@@ -37,7 +37,17 @@ function App() {
         </div>
       </section>
     </main>
-    <footer></footer>
+    {/* <footer>
+      <div className="footer-container">
+        <div className="social-icons">
+          <ul>
+            <li><a href=""><img className='icons' src="./src/assets/linkedIn.jpeg" alt="LInkedIn" /></a></li>
+            <li><a href=""><img className='icons' src="./src/assets/github.jpeg" alt="GitHub" /></a></li>
+            <li><a href=""><img className='icons' src="./src/assets/twitter.jpeg" alt="X" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer> */}
     </div>
     </>
   )
