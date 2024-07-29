@@ -1,33 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className='container'>
+    <header>
+      <nav>
+        <h2 className='logo'>FELIX <span>JOHN</span></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+        <button className='btn'>Contact me</button>
+      </nav>
+    </header>
+    <main>
+      <section className='home'>
+        <div className='home-content'>
+          <h3>Hi, I am Felix <span>John</span></h3>
+          <h3>Software developer</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Itaque enim natus dolorum quidem inventore quasi sed atque quae voluptates ducimus 
+            suscipit dolor porro ad rem nostrum libero consequatur, aspernatur architecto?
+          </p>
+          <div className="btn-box">
+            <button className='btn-1'>Hire me</button>
+            <button className='btn-1'>Let's talk</button>
+          </div>
+
+        </div>
+        <div className="img-container">
+          <img src="./src/assets/img1.jpeg" alt="img" />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    </div>
     </>
   )
 }
