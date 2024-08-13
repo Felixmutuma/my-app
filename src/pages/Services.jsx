@@ -1,3 +1,6 @@
+import ServicesOffered from "../components/Services";
+
+
 function Services() {
     return ( 
         <>        
@@ -11,7 +14,7 @@ function Services() {
         </ul>
         <button className='btn'>Contact me</button>
       </nav>
-      <div>Services I offer</div>
+      <ServicesOffered/>
       </>
      );
 }

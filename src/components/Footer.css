@@ -1,0 +1,33 @@
+.footer{
+    margin-left:5%;
+    margin-right: 5%;
+    display: block;
+    align-content: center;
+}
+.social-media-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    height: 10%;
+    justify-content: center;
+    gap: 20px;
+}
+.social-media-container a img{
+    padding: 5px;
+    border-radius: 50px;
+    height: 80px;
+    cursor: pointer;
+    transition: 0.3s ease, border 0.3s ease;
+}
+.footer p{
+    align-items: center;
+    margin-left: 40%;
+}
+.social-media-container img:hover{
+    transform: scale(1.1);
+    border: 1px solid goldenrod;
+}
+#copyright{
+    font-size: large;
+}

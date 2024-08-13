@@ -1,4 +1,5 @@
 import React from "react";
+import Aboutme from "../components/Aboutme";
 
 function About() {
     return ( 
@@ -13,9 +14,7 @@ function About() {
             </ul>
             <button className='btn'>Contact me</button>
         </nav>
-        <div>
-            About me!
-        </div>
+        <Aboutme/>
         </>
      );
 }

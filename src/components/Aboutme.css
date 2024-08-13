@@ -1,0 +1,24 @@
+.about-me-card{
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin: 5%;
+    
+
+}
+
+p{
+    font-size: large;
+    font-weight: 300;
+}
+
+.image-container img{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+  .info-card{
+    margin: auto;
+    margin-left: 10px;
+  }
