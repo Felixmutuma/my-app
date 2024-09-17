@@ -1,6 +1,6 @@
 .contact-form-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 2% auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,8 @@
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    background-color: rgb(78, 67, 67);
+    border: 1px solid #9c9696;
     border-radius: 4px;
     font-family: 'Arial', sans-serif;
     font-size: 14px;
@@ -44,7 +45,7 @@
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #4CAF50;
+    background-color: rgb(190, 163, 5);
     color: white;
     border: none;
     border-radius: 4px;
@@ -54,5 +55,5 @@
 }
 
 .form-button:hover {
-    background-color: #45a049;
+    background-color: gold;
 }
