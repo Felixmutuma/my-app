@@ -1,0 +1,33 @@
+.services-container{
+    display: grid;
+    margin: 2%;
+    align-items: start;
+    width: 90%;
+}
+.service-card{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin:12px;
+    background-color: rgb(36, 32, 32);
+}
+.service-card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    /* padding-right: 20px; */
+}
+
+.description{
+    width: 50%;
+}
+
+.button{
+    background-color: rgb(219, 192, 40);
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    border-radius: 10%;
+}
