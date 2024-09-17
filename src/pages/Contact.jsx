@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import './Contact.css';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -28,37 +29,34 @@ const Contact = () => {
             })
             .catch((error) => {
                 console.log('Error:', error);
-                alert('Failed to send message.');
+                alert('Failed to send message.Please try again later!');
             });
     };
 
     return (
-        <div>
-            <h1>Contact Me</h1>
-            <form onSubmit={handleSubmit}>
-                <label>
-                    Name:
-                    <input type="text" name="name" value={formData.name} onChange={handleChange} required />
-                </label>
-                <br />
-                <label>
-                    Email:
-                    <input type="email" name="email" value={formData.email} onChange={handleChange} required />
-                </label>
-                <br />
-                <label>
-                    Subject:
-                    <input type="text" name="subject" value={formData.subject} onChange={handleChange} required />
-                </label>
-                <br />
-                <label>
-                    Message:
-                    <textarea name="message" value={formData.message} onChange={handleChange} required></textarea>
-                </label>
-                <br />
-                <button type="submit">Send</button>
-            </form>
-        </div>
+<div className="contact-form-container">
+    <h1>Contact Me</h1>
+    <form onSubmit={handleSubmit}>
+        <label className="form-label">
+            Name:
+            <input type="text" name="name" value={formData.name} onChange={handleChange} required className="form-input" />
+        </label>
+        <label className="form-label">
+            Email:
+            <input type="email" name="email" value={formData.email} onChange={handleChange} required className="form-input" />
+        </label>
+        <label className="form-label">
+            Subject:
+            <input type="text" name="subject" value={formData.subject} onChange={handleChange} required className="form-input" />
+        </label>
+        <label className="form-label">
+            Message:
+            <textarea name="message" value={formData.message} onChange={handleChange} required className="form-textarea"></textarea>
+        </label>
+        <button type="submit" className="form-button">Send</button>
+    </form>
+</div>
+
     );
 };
 

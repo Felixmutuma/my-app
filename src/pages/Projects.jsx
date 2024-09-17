@@ -1,3 +1,6 @@
+import React from "react";
+import ProjectsList from "../components/ProjectsList"
+
 function Projects() {
     return ( 
         <>
@@ -11,7 +14,7 @@ function Projects() {
             </ul>
             <button className='btn'>Contact me</button>
         </nav>
-        <div>Projects</div>
+        <ProjectsList/>
         </>
      );
 }
