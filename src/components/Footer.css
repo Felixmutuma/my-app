@@ -31,3 +31,10 @@
 #copyright{
     font-size: large;
 }
+
+@media (max-width:965px){
+    .footer p {
+        align-items: flex-start;
+        margin-left: 25%;
+    }
+}

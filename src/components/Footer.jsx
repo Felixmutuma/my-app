@@ -12,7 +12,7 @@ function Footer() {
                     <a href="https://x.com/Felixmutuma19" target="_blank" rel="noopener noreferrer">
                         <img src="src/assets/twitter.jpeg" alt="Twitter" />
                     </a>
-                    <a href="https://www.linkedin.com/in/YourLinkedInUsername/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/felix-john-mutuma/" target="_blank" rel="noopener noreferrer">
                         <img src="src/assets/linkedIn.jpeg" alt="LinkedIn" />
                     </a>
                 </div>

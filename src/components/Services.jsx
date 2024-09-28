@@ -59,22 +59,22 @@ const ServicesOffered = () => {
   
   return (
     <>
-        <div className='services-container'>
-      {services.map(service => (
+      <div className='services-container'>
+        {services.map(service => (
         <div className='service-card' key={service.id}>
-          <div>
-            <img src={service.image} alt={service.title}  />
-            <h3>{service.title}</h3>
-            <button className='button'>Book now</button>
-          </div>
-          <div className='description'>
-            <p>{service.description}</p>
-          </div>
+            <div>
+              <img src={service.image} alt={service.title}  />
+              <h3>{service.title}</h3>
+              <button className='button'>Book now</button>
+            </div>
+            <div className='description'>
+              <p>{service.description}</p>
+            </div>
         </div>
-        
-      ))}
+          
+        ))}
 
-    </div>
+      </div>
     </>
   );
 };

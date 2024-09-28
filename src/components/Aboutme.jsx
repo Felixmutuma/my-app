@@ -3,6 +3,7 @@ import './Aboutme.css'
 
 function Aboutme() {
     return ( 
+        
     <section className="about-me-card">
         <div className="img-container">
         <img src="./src/assets/img1.jpeg" alt="img" />

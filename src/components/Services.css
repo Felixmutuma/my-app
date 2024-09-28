@@ -31,3 +31,12 @@
     width: 100px;
     border-radius: 10%;
 }
+
+@media(max-width:965px){
+    .service-card{
+        display:grid;
+    }
+    .description{
+        width: 100%;
+    }
+}
