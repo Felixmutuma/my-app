@@ -65,7 +65,7 @@ const ServicesOffered = () => {
             <div>
               <img src={service.image} alt={service.title}  />
               <h3>{service.title}</h3>
-              <button className='button'>Book now</button>
+              <button className='button' onClick={handleBookNow}>Book now</button>
             </div>
             <div className='description'>
               <p>{service.description}</p>

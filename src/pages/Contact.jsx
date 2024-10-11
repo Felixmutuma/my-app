@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
-        subject: '',
         message: ''
     });
 
@@ -17,12 +16,18 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.send("service_yz469wu","template_z9phfa9", 'S7Pm1uhHKlrsYu99X', {
-            name:formData.name,
-            email: formData.email,
-            subject:formData.subject,
+        const serviceId = "service_yz469wu";
+        const templateId = "template_z9phfa9";
+        const publicKey = 'w84Gt6fx-NYuJWuvJ';
+
+        const params = {
+            from_name:formData.name,
+            from_email: formData.email,
+            to_name:'Felix',           
             message:formData.message
-        })
+        }
+
+        emailjs.send(serviceId,templateId,params,publicKey)
             .then((response) => {
                 console.log('Success:', response);
                 alert('Message sent successfully!');
@@ -56,10 +61,10 @@ const Contact = () => {
                     Email:
                     <input type="email" name="email" value={formData.email} onChange={handleChange} required className="form-input" />
                 </label>
-                <label className="form-label">
+                {/* <label className="form-label">
                     Subject:
                     <input type="text" name="subject" value={formData.subject} onChange={handleChange} required className="form-input" />
-                </label>
+                </label> */}
                 <label className="form-label">
                     Message:
                     <textarea name="message" value={formData.message} onChange={handleChange} required className="form-textarea"></textarea>
