@@ -6,7 +6,7 @@ function Aboutme() {
         
     <section className="about-me-card">
         <div className="img-container">
-        <img src="./src/assets/img1.jpeg" alt="img" />
+        <img src="/assets/img1.jpeg" alt="img" />
         </div>
         <div className="info-card">
             <p>Felix is a dedicated software developer who has built a strong foundation through both academic and practical experiences. He graduated with a degree in Computer Science from Pwani University in 2023, where he delved deeply into computing concepts and software development techniques. To further refine his skills, Felix pursued a certification in Software Development at Moringa School, which he completed in early 2024. This certification allowed him to explore the latest technologies and industry practices.

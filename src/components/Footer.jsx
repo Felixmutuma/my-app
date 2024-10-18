@@ -7,13 +7,13 @@ function Footer() {
             <div className="footer">
                 <div className="social-media-container">
                     <a href="https://github.com/Felixmutuma" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/github.jpeg" alt="Github" />
+                        <img src="/assets/github.jpeg" alt="Github" />
                     </a>
                     <a href="https://x.com/Felixmutuma19" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/twitter.jpeg" alt="Twitter" />
+                        <img src="/assets/twitter.jpeg" alt="Twitter" />
                     </a>
                     <a href="https://www.linkedin.com/in/felix-john-mutuma/" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/linkedIn.jpeg" alt="LinkedIn" />
+                        <img src="/assets/linkedIn.jpeg" alt="LinkedIn" />
                     </a>
                 </div>
                 <p><span id="copyright">©</span> 2024 Felix John. All rights reserved!</p>
