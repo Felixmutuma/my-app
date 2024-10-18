@@ -3,12 +3,12 @@ import './Services.css'
 
 // Example images for each service
 const serviceImages = {
-  customSoftware: 'src/assets/images/Custom Software Development in India.jpeg',
-  uiUxDesign: 'src/assets/images/UI-UX design.jpeg',
-  webAppDevelopment: 'src/assets/images/Web-dev.jpeg',
-  mobileAppDevelopment: 'src/assets/images/Mobile devt.jpeg',
-  softwareMaintenance: 'src/assets/images/Software Maintenance.jpeg',
-  projectManagement: 'src/assets/images/Project Management.jpeg',
+  customSoftware: '/assets/images/Custom Software Development in India.jpeg',
+  uiUxDesign: '/assets/images/UI-UX design.jpeg',
+  webAppDevelopment: '/assets/images/Web-dev.jpeg',
+  mobileAppDevelopment: '/assets/images/Mobile devt.jpeg',
+  softwareMaintenance: '/assets/images/Software Maintenance.jpeg',
+  projectManagement: '/assets/images/Project Management.jpeg',
 };
 
 const services = [

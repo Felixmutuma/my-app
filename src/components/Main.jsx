@@ -7,7 +7,7 @@ function Main() {
         <main>
             <section className='home'>
                 <div className="img-container">
-                <img src="./src/assets/img1.jpeg" alt="img" />
+                <img src="/assets/img1.jpeg" alt="img" />
                 </div>
                 <div className='home-content'>
                 <h3>Hi, I am Felix <span>John</span></h3>
