@@ -9,6 +9,7 @@ nav{
     color: white;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
   }
   span{
     color: gold;

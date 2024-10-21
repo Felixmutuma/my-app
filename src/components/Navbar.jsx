@@ -9,6 +9,9 @@ function Navbar() {
     const contactMe = () =>{
       navigate('/contact-me'); //redirects to contact me page
     }
+    const home = () =>{
+      navigate('/'); //redirects to contact me page
+    }
 
     const [menuOpen,setMenuOpen] = useState(false);
 
@@ -16,7 +19,7 @@ function Navbar() {
         <>
         <header>
           <nav>
-            <h2 className='logo'>FELIX <span>JOHN</span></h2>
+            <h2 className='logo' onClick={home}>FELIX <span>JOHN</span></h2>
             <ul className={menuOpen ? "open" : ""}>
               <li><a href="/">Home</a></li>
               <li><a href="/projects">Projects</a></li>

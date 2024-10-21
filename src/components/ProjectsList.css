@@ -1,12 +1,14 @@
 .projects-container{
     margin: 2% 4% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    gap: 1rem;
+    
 }
 
 .project{
-    height: auto;
+    height:500px;
     margin: auto;
 }
 
@@ -21,6 +23,14 @@
     font-size: large;
     font-weight: 500;
     color: goldenrod;
+    cursor:auto;
+}
+.project p{
+    width: 95%;
+}
+p span{
+    font-size: larger;
+    color: rgb(228, 228, 5);
 }
 
 @media (max-width:965px){
